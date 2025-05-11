@@ -1,0 +1,46 @@
+
+body {
+    font-family: 'Koulen', 'Kantumruy Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0033cc;
+    color: white;
+    padding: 10px 20px;
+}
+header .logo img {
+    height: 50px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    background: #0033cc;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
